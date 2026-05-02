@@ -1,37 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-01T10:59:13 IST" name="Default suite" finished-at="2026-05-01T10:59:14 IST" duration-ms="328">
+  <suite started-at="2026-05-02T17:43:29 IST" name="Suite" finished-at="2026-05-02T17:43:51 IST" duration-ms="22524">
     <groups>
     </groups>
-    <test started-at="2026-05-01T10:59:13 IST" name="Default test" finished-at="2026-05-01T10:59:14 IST" duration-ms="328">
-      <class name="testng.PriortiseTestINTestNG">
-        <test-method signature="logout()[pri:-2, instance:testng.PriortiseTestINTestNG@5dda768f]" started-at="2026-05-01T10:59:14 IST" name="logout" finished-at="2026-05-01T10:59:14 IST" duration-ms="46" status="PASS">
+    <test started-at="2026-05-02T17:43:29 IST" name="Test" finished-at="2026-05-02T17:43:51 IST" duration-ms="22524">
+      <class name="testng.OrangeHRMTestCases">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testng.OrangeHRMTestCases@385e9564]" started-at="2026-05-02T17:43:29 IST" name="setUp" finished-at="2026-05-02T17:43:41 IST" duration-ms="12824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method signature="signup()[pri:-1, instance:testng.PriortiseTestINTestNG@5dda768f]" started-at="2026-05-01T10:59:14 IST" name="signup" finished-at="2026-05-01T10:59:14 IST" duration-ms="5" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:testng.OrangeHRMTestCases@385e9564]" started-at="2026-05-02T17:43:42 IST" name="loginTest" finished-at="2026-05-02T17:43:44 IST" duration-ms="2784" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signup -->
-        <test-method signature="accountCreation()[pri:0, instance:testng.PriortiseTestINTestNG@5dda768f]" started-at="2026-05-01T10:59:14 IST" name="accountCreation" finished-at="2026-05-01T10:59:14 IST" duration-ms="10" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method signature="logoutTest()[pri:2, instance:testng.OrangeHRMTestCases@385e9564]" started-at="2026-05-02T17:43:44 IST" name="logoutTest" finished-at="2026-05-02T17:43:49 IST" duration-ms="4962" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- accountCreation -->
-        <test-method signature="changeProfilePicture()[pri:0, instance:testng.PriortiseTestINTestNG@5dda768f]" started-at="2026-05-01T10:59:14 IST" name="changeProfilePicture" finished-at="2026-05-01T10:59:14 IST" duration-ms="15" status="PASS">
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng.OrangeHRMTestCases@385e9564]" started-at="2026-05-02T17:43:49 IST" name="tearDown" finished-at="2026-05-02T17:43:51 IST" duration-ms="1799" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- changeProfilePicture -->
-        <test-method signature="login()[pri:2, instance:testng.PriortiseTestINTestNG@5dda768f]" started-at="2026-05-01T10:59:14 IST" name="login" finished-at="2026-05-01T10:59:14 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="updateProfile()[pri:3, instance:testng.PriortiseTestINTestNG@5dda768f]" started-at="2026-05-01T10:59:14 IST" name="updateProfile" finished-at="2026-05-01T10:59:14 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateProfile -->
-      </class> <!-- testng.PriortiseTestINTestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- testng.OrangeHRMTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

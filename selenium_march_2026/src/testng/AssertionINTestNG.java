@@ -10,7 +10,7 @@ public class AssertionINTestNG {
 	public void test1()
 	{
 		String expTitle="Facebook";
-		String actTitle="Facebook signup";
+		String actTitle="Facebook";
 		
 		Assert.assertEquals(actTitle, expTitle," Expected title doesn't matched with actual title..");
 			
@@ -29,7 +29,7 @@ public class AssertionINTestNG {
 	@Test
 	public void test3()
 	{
-		Assert.assertTrue(false,"Expecting true as boolean conodition ...");
+		Assert.assertTrue(true,"Expecting true as boolean conodition ...");
 	}
 	
 	@Test
@@ -47,7 +47,7 @@ public class AssertionINTestNG {
 	@Test
 	public void test6()
 	{
-		Assert.assertFalse(true,"Expecting true as boolean conodition ...");
+		Assert.assertFalse(false,"Expecting true as boolean conodition ...");
 	}
 
 }

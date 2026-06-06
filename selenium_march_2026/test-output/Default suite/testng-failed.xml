@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.AssertionINTestNG">
+      <class name="listeners.OrangeHRMTest">
         <methods>
-          <include name="test1"/>
-          <include name="test3"/>
-          <include name="test6"/>
+          <include name="verifyOrangeHrmLogoTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyOrangeHrmLoginPageTtitleTest"/>
+          <include name="verifyOrangeHrmUrlTest"/>
         </methods>
-      </class> <!-- testng.AssertionINTestNG -->
+      </class> <!-- listeners.OrangeHRMTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
